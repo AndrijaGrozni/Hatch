@@ -1,0 +1,447 @@
+
+
+body {
+    font-family: Montserrat, open-sans;
+    padding: 0;
+    margin: 0;
+}
+.menu-bar {
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 40px;
+    padding: 0;
+}
+.menu-bar a {
+    color: black;
+}
+.menu-text {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 0;
+}
+.content {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#sliderOne {
+    position: relative;
+    color: white;
+    padding: 0;
+    overflow: hidden;
+}
+.logo {
+    position: absolute;
+    font-size: 34px;
+    top: 3%;
+    left: 5%;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 47px;
+    font-weight: bold;
+    width: 100%;
+    margin: 0;
+}
+.parallax-section {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    background-color: #E8E6E7;
+    position: relative;
+    background-image: url('images/paralax.jpg');
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-attachment: fixed;
+}
+.parallax {
+  position: relative;
+}
+.paralax-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 31px;
+    width: 100%;
+    margin: 0;
+}
+.static {
+  height: auto;
+}
+.nopadding {
+    padding: 0 !important;
+}
+.mouthy {
+    position: relative;
+    background-image: url('images/kiss.jpg');
+    background-repeat: repeat-x;
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    cursor: pointer;
+}
+.mouthy:hover {
+    background-color: pink;
+}
+.mouthy-text {
+    width: 70%;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+.mini-text {
+    font-size: 25px;
+    font-weight: 500;
+    width: 80%;
+}
+.mini {
+    background-color: #00cedb;
+    font-size: 18px;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+}
+.flares {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.mouthy-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: strech;
+    height: 100%;
+}
+.pictures-section {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+.pic-left {
+    height: auto;
+    background-color: aqua;
+    position: relative;
+}
+.pic-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.flare-text {
+    text-align: left;
+    width: 80%;
+    font-size: 25px;
+    padding-bottom: 0;
+}
+.flare-description {
+    text-align: left;
+    width: 80%;
+    font-size: 18px;
+    font-weight: normal;
+    padding-top: 0;
+}
+.mini-description {
+    width: 80%;
+    text-align: left;
+    padding: 0;
+    margin-top: -10px;
+}
+.icons-section {
+    color: #ffffff;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    overflow: hidden;
+}
+.icon-heading {
+    font-size: 17px;
+    font-weight: normal;
+    width: 80%;
+}
+.icons-section-1 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.icon-section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    text-transform: uppercase;
+}
+.icon-pic {
+    font-size: 30px;
+}
+.icon-wrapper {
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    font-size: 25px;
+    width: 100%;
+    margin: 0;
+}
+.icon-shoe {
+    background-image: url(images/shoe.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.icon-text {
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 2px;
+}
+.gallery-slider {
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+}
+.prev {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    bottom: 0;
+    margin-top: -20px;
+    height: 40px;
+    width: 40px;
+    background-color: #e2ee10;
+    border: 0;
+    text-align: center;
+}
+.next {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -20px;
+    height: 40px;
+    width: 40px;
+    background-color: #e2ee10;
+    border: 0;
+    text-align: center;
+}
+.siema {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.siema img {
+    width: 100%;
+}
+.continue {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    text-align: center;
+    z-index: 13;
+    overflow: hidden;
+}
+.continue h2 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  position: relative;
+}
+.contact {
+  height: auto;
+  background-color: #15bfca;
+  color: white;
+  line-height: 4px;
+  font-weight: normal;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+}
+.contact ul {
+  list-style: none;
+  margin: 10%;
+}
+.contact ul li {
+  margin-top: 25px;
+}
+.contact h5 {
+  color: black;
+  font-size: 13px;
+  line-height: 5px;
+}
+.social {
+  padding-top: 8px;
+  background-color: black;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  font-size: 20px;
+  color: #15bfca;
+  text-align: center;
+  margin-right: 5px;
+}
+.social:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.map {
+  background-image: url(images/map.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.footer {
+  background-color: black;
+  height: 160px;
+  display: flex;
+  justify-content: center;;
+  align-items: center;
+  font-size: 11px;
+  font-weight: normal;
+  position: relative;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+.copyright {
+  font-size: 10px;
+  position: absolute;
+  color: gray;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+.menu-slide {
+  width: 25%;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9;
+  transform: translateX(500px);
+}
+.menu-slide ul {
+  margin-top: 180px;
+  margin-left: 20px;
+  list-style: none;
+  font-size: 14px;
+}
+.menu-slide ul li {
+  margin-top: 5px;
+  text-decoration: none;
+}
+.menu-slide ul li a {
+  text-decoration: none;
+  color: black;
+}
+.menu-slide ul li a:hover {
+  color: #15bfca;
+}
+#closeMenu {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  color: black;
+  font-size: 40px;
+  margin-right: 5%;
+  cursor: pointer;
+}
+/*    RESPONSIVE:   */
+
+@media (max-width: 768px) {
+  .logo {font-size: 24px;}
+  .hero-text {font-size: 28px; transform: translate(-50%, -50%);}
+  .paralax-text {font-size: 16px; transform: translate(-50%, -50%);}
+  .flare-text {font-size: 14px;}
+  .flare-description {font-size: 12px;}
+  .mouthy-text {font-size: 12px; width: 90%;}
+  .mini-text {font-size: 14px;}
+  .mini-description {font-size: 12px;}
+  .icon-wrapper {font-size: 15px; line-height: 5px;}
+  .icon-text {font-size: 7px; margin-top: 5px;}
+  .icons-section-1 {padding: 15px;}
+  .icon-heading {font-size: 14px; width: 90%;}
+  .next {width: 30px;}
+  .prev {width: 30px;}
+  .continue {padding: 25px;}
+  .continue h2 {font-size: 15px;}
+  .contact ul {padding-left: 20px;}
+  .contact ul li {margin-top: 10px;}
+  .contact h5 {font-size: 10px; line-height: 3px; margin-bottom: 5px;}
+  .contact p {font-size: 9px; line-height: 2px; margin-bottom: 5px;}
+  .footer {height: 90px;}
+  .footer a {margin-left: 5px; margin-right: 5px;}
+  .copyright {margin-bottom: 2px; font-size: 8px;}
+  .menu-text {font-size: 10px;}
+  .menu-bar {font-size: 30px;}
+  .parallax-section {background-position: left 100%;}
+}
+
+@media (max-width: 425px) {
+  .logo {font-size: 14px;}
+  .hero-text {font-size: 16px; transform: translate(-50%, -50%);}
+  .paralax-text {font-size: 10px; transform: translate(-50%, -50%);}
+  .flare-text {font-size: 9px; margin: 5px 0;}
+  .flare-description {font-size: 7px; margin: 0;}
+  .mouthy-text {font-size: 8px; width: 90%;}
+  .mini-text {font-size: 9px;}
+  .mini-description {font-size: 7px;}
+  .icon-wrapper {font-size: 11px; line-height: 1px;}
+  .icons-section-1 {padding: 15px;}
+  .icon-text {font-size: 3px; margin-top: 5px;}
+  .icon-heading {font-size: 9px; width: 90%;}
+  .next {width: 20px;}
+  .prev {width: 20px;}
+  .continue h2 {font-size: 12px;}
+  .contact ul {padding-left: 5px;}
+  .contact ul li {margin-top: 5px;}
+  .contact h5 {font-size: 8px; line-height: 1px; margin-bottom: 5px; margin-top: 0;}
+  .contact p {font-size: 8px; line-height: 1px; margin-bottom: 4px;}
+  .social { font-size: 15px; width: 25px; height: 25px; padding-top: 6px;}
+  .footer {height: 60px;}
+  .footer a {margin-left: 5px; margin-right: 5px; font-size: 8px;}
+  .copyright {margin-bottom: 1px; font-size: 6px;}
+  .menu-text {font-size: 8px;}
+  .menu-slide {width: 50%;}
+  .parallax-section {background-position: left 45%;}
+}
